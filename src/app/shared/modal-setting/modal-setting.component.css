@@ -1,0 +1,20 @@
+.overlay {
+  background-color: rgba(40, 13, 95, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 50;
+}
+
+#card-container {
+  position: fixed;
+  top: calc(50% - 335px);
+  left: calc(50% - 195px);
+  z-index: 51;
+  width: 390px;
+  height: 670px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+}

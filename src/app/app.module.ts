@@ -10,6 +10,8 @@ import { FaqRowComponent } from './shared/faq-row/faq-row.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { ModalSettingsComponent } from './shared/modal-settings/modal-settings.component';
 import { LanguageSelectorComponent } from './shared/language-selector/language-selector.component';
+import { GenericCardComponent } from './shared/generic-card/generic-card.component';
+import { ModalSettingComponent } from './shared/modal-setting/modal-setting.component';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { LanguageSelectorComponent } from './shared/language-selector/language-s
     NavbarComponent,
     ModalSettingsComponent,
     LanguageSelectorComponent,
+    GenericCardComponent,
+    ModalSettingComponent,
   ],
   imports: [
     BrowserModule,

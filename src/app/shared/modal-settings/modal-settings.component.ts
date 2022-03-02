@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-modal-settings',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal-settings.component.css']
 })
 export class ModalSettingsComponent implements OnInit {
-
+  @Output() openModal = new EventEmitter<void>();
   constructor() { }
 
   ngOnInit(): void {

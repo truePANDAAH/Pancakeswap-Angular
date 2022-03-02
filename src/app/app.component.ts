@@ -7,6 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class AppComponent {
   title = 'pancakeswap';
+  showModal = false;
 
   cache!: number;
   scrollDeltaY!: number;

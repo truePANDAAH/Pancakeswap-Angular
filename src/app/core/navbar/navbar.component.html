@@ -188,7 +188,7 @@
     </div>
 
     <app-language-selector></app-language-selector>
-    <app-modal-settings></app-modal-settings>
+    <app-modal-settings (openModal)="openModal.emit()"></app-modal-settings>
     
     <button class="button-squashed" type="button">Connect Wallet</button>
   </div>
